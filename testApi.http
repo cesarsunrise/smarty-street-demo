@@ -1,0 +1,29 @@
+@host = http://localhost:3031
+
+### 
+POST {{host}}/api/smarty/international HTTP/1.1
+Content-Type: application/json
+
+{
+    "addresses_to": "John Doe",
+    "address1": "Rua Padre Antonio D'Angelo 121",
+    "address2": "Casa Verder",
+    "city": "Sao Paulo",
+    "province_name": "SP",
+    "country_name": "Brazil",
+    "postal_code": "02516-050"
+}
+
+###
+POST {{host}}/api/smarty/usa HTTP/1.1
+Content-Type: application/json
+
+{
+    "addresses_to": "John Doe",
+    "address1": "330 N 100 W",
+    "address2": "APT 2",
+    "city": "Provo",
+    "province_name": "Utah",
+    "country_name": "United States",
+    "postal_code": "84601"
+}
