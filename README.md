@@ -8,12 +8,9 @@
 ### Start the project
 1. Copy and rename `.env.sample` to `.env`.
 2. Paste the credentials you got from Smarty.
-3. Install the dependencies:
-`yarn install`
-4 . Build the project:
-`yarn build`
-4 . Run the project:
-`yarn dev`
+3. Install the dependencies: `yarn install`.
+4. Build the project: `yarn build`
+5. Run the project: `yarn dev`
 
 ### Endpoints
 `POST /api/smarty/international`
